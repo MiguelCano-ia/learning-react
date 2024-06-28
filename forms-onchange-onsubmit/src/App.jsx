@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Form from './components/Form'
+import { Effect } from './components/Effect'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Form />
+      <Effect />
     </>
   )
 }
